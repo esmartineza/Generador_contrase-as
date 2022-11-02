@@ -1,3 +1,6 @@
+import random
+import string
+
 print("Detector y Generador de Contraseñas")
 
 print('''Seleccione una opcion 
@@ -16,3 +19,13 @@ while True:
             print("contraseña segura")
     if opcion == "2":
         print("Generar contraseña aleatoria")
+        seleccion = int(input("ingrese la cantidad de caracteres  deseados: "))
+        if seleccion >= 8:
+            minusculas ="abcdefghijklmnopqrstuvwxyz"
+            generacion = random.sample(minusculas, seleccion)
+            password = "".join(generacion)
+            print(password )
+        else:
+            print("la contraseña tiene que tener como minimo 8 caracteres")
+
+
