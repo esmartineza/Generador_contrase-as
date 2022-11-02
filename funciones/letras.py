@@ -1,15 +1,13 @@
 import random
 
-print("Detector y Generador de Contraseñas")
-
 def letras():
     print("Generar contraseña aleatoria")
     seleccion = int(input("ingrese la cantidad de caracteres  deseados: "))
     print('''Seleccione una opcion 
-        1.solo letras
-        2.solo numeros(max 10)
-        3.Solo Simbolos  
-        4.Contraseña aleatoria
+        1.solo letras(Max 54)
+        2.solo numeros(Max 10)
+        3.Solo Simbolos(Max 26)  
+        4.Contraseña aleatoria(Max 88)
         5.Salir
         ''')  
     opciones = int(input("Seleccione una de las opciones: "))
@@ -38,29 +36,3 @@ def letras():
         print(password)
     else:
         print("salir")
-
-def comprobar():
-        print("Comprobacion de contraseña ")
-        contraseña = len(input("Ingrese Contraseña: "))
-        #como primer punto para que la contraseña robusta debe contar con almenos 12 caracteres
-        if contraseña < 8:
-            print("su contraseña es vunerable es necesario cambiarla")
-        else:
-            print("contraseña segura")
-
-while True:
-    
-    print('''Seleccione una opcion 
-    1.Comprobar si la contraseña es segura 
-    2.Generar contraseñas
-    3.Salir
-    ''')
-    opcion =input("ingrese opcion: ")
-    if opcion == "1":
-        comprobar()
-    elif opcion == "2":
-        letras()
-    else:
-        print("generador apagado")
-        break
-
