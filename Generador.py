@@ -16,6 +16,6 @@ while True:
     elif opcion == "2":
         letras()
     else:
-        print("generador apagado")
+        print("Generador apagado")
         break
 
