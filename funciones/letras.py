@@ -35,4 +35,4 @@ def letras():
         password = "".join(generacion)
         print(password)
     else:
-        print("salir")
+        print("Salio del Generador de Contraseñas")
