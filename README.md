@@ -1,7 +1,7 @@
 # Proyectos
  Proyectos de Python
  
-antes de utilizar es necesario instalar lo siguiente pip install cryptography
+antes de utilizar es necesario instalar lo siguiente *pip install cryptography*
 
 Generador de Contraseñas 
 
