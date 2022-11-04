@@ -1,7 +1,7 @@
 # Proyectos
  Proyectos de Python
  
-antes de utilizar es necesario instalar lo siguiente *pip install cryptography*
+
 
 Generador de Contraseñas 
 
@@ -20,3 +20,8 @@ Funciones del generador:
      2.solo numeros(Max 10)
      3.Solo Simbolos(Max 26)  
      4.Contraseña aleatoria(Max 88)
+    
+   
+  
+  
+antes de utilizar es necesario instalar lo siguiente *pip install cryptography*
