@@ -1,3 +1,6 @@
-t = ('juanito', 'perez','estudiantes',10,[1,2,8],10,-80)
-te = t.index("estudiantes")
-print("la pisicion es: ",te)
+apilar = [1,2,3,4]
+apilar.append(3)
+apilar.append(6)
+apilar.append(8)
+basurero = apilar.pop()
+print(apilar)
