@@ -24,4 +24,4 @@ Funciones del generador:
    
   
   
-antes de utilizar es necesario instalar lo siguiente *pip install cryptography*
+Antes de utilizar es necesario instalar lo siguiente *pip install cryptography*
