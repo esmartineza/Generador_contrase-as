@@ -14,11 +14,11 @@ def encriptar_con():
     key = Fernet.generate_key()
     clave_cifrada = Fernet(key)
     clave_encriptada = clave_cifrada.encrypt(str.encode(contraseña))
-    print(clave_encriptada)
-
+    print(clave_encriptada)    
+    
 def desencriptar_con():
     print("Desencriptar Contraseña")
     contraseña = input("Ingrese Contraseña: ")
-    desencriptado =  contraseña.decrypt(contraseña)
-    contraseña_desencriptada =  desencriptado.decode()
+    desencriptado = contraseña.decrypt(contraseña)
+    contraseña_desencriptada = desencriptado.decode()
     print(contraseña_desencriptada)    

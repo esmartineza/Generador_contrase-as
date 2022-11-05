@@ -1,6 +1,6 @@
-from cryptography.fernet import Fernet
 from funciones.encriptar import comprobar_con
 from funciones.encriptar import desencriptar_con
+from funciones.encriptar import encriptar_con
 def comprobar():
     while True:
         print('''
@@ -13,7 +13,7 @@ def comprobar():
         if opcion == 1:
             comprobar_con()
         elif opcion == 2:
-            desencriptar_con()
+            encriptar_con()
         elif opcion == 3:
             desencriptar_con()
         else:

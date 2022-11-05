@@ -1,4 +1,3 @@
-import random
 from funciones.gen_letras import gen_letras
 from funciones.gen_numeros import gen_numeros
 from funciones.gen_simbolos import gen_simbolos
