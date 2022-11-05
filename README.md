@@ -7,14 +7,14 @@ Generador de Contraseñas
 
 Funciones del generador:
 
-1.*Comprobar si la contraseña es segura*
+1.**Comprobar si la contraseña es segura**
 
      1.Comprobar Contraseñas
      2.Encriptar Contraseñas
      3.Desencriptar Contraseñas
    
 
-2.*Generar contraseñas*
+2.**Generar contraseñas**
 
      1.solo letras(Max 54)
      2.solo numeros(Max 10)
