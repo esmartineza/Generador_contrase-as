@@ -1,1 +1,3 @@
-print("ejemplos")
+class auto:
+    pass
+print(auto)

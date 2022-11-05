@@ -1,6 +1,7 @@
 from funciones.encriptar import comprobar_con
 from funciones.encriptar import desencriptar_con
 from funciones.encriptar import encriptar_con
+from cryptography.fernet import Fernet
 def comprobar():
     while True:
         print('''
