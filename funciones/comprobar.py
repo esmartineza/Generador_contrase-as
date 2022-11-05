@@ -32,4 +32,5 @@ def comprobar():
             print(contraseña_desencriptada)
         else:
             print("Salio de comprobador de contraseñas")
+            break
             
